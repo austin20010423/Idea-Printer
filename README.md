@@ -8,4 +8,6 @@
 - return image design URL
 - return design idea
 - gave a css color of the design idea
+## Layout
+- figma: https://www.figma.com/file/BPnPP4Z0sEp5pd458jCgWK/idea-printer?node-id=0%3A1&t=Pnr2KN9Djp8kay55-0
 
