@@ -1,0 +1,88 @@
+header {
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    padding-top: 20px;
+}
+
+body {
+    background-image: url('../pic/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(244, 241, 241, 0.8);
+    background-blend-mode: multiply;
+}
+
+.intro {
+    text-align: center;
+    font-size: 15px;
+}
+
+.choose {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-check {
+    display: inline;
+    padding-left: 50px;
+}
+
+.logo {
+    padding-left: 500px;
+}
+
+.radio {
+    text-align: center;
+}
+
+.idea {
+    text-align: center;
+    color: rgb(17, 18, 18);
+    font-size: 20px;
+}
+
+.logo {
+    padding-left: -10px;
+}
+
+.text {
+    opacity: 60%;
+    padding-left: 50px;
+}
+
+.url-logo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 400px;
+    height: 100px;
+    width: 700px;
+}
+
+
+.url-text {
+    padding-left: 400px;
+    padding-top: 100px;
+    font-size: 20px;
+
+}
+
+.design-idea {
+    padding-top: 0px;
+    padding-left: 400px;
+    padding-right: 100px;
+}
+
+.design {
+    font-size: 20px;
+}
+
+.answer {
+    height: 100px;
+    width: 700px;
+    padding-left: 400px;
+}
+
+footer {
+    text-align: center;
+}
