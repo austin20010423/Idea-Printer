@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo generate</title>
+    <link rel="stylesheet" href="../static/style/styles.css">
+</head>
+<body>
+    <header>Idea Printer</header>
+    <div class="intro">
+      <p>Powered by OpenAI image generate API</p>
+    </div>
+    <form action="form" method="post">
+      <p class="choose">choose your image size</p>
+      <div class="radio">
+        <div class="form-check left">
+          <input class="form-check-input" type="radio" name="img_size" id="inlineRadio1" value="256x256">
+          <label class="form-check-label" for="inlineRadio1">256 X 256</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="img_size" id="inlineRadio2" value="512x512">
+          <label class="form-check-label" for="inlineRadio2">512 X 512</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="img_size" id="inlineRadio3" value="1024x1024">
+          <label class="form-check-label" for="inlineRadio3">1024 X 1024</label>
+        </div>
+      </div>
+          <p class="logo">Logo ideas</p>
+          <div class="idea">
+            <textarea class="text" name="questions" id="questions" cols="60" rows="10"></textarea>
+            <br><input type="submit">
+          </div>
+    </form>
+    <div class="area">
+      <p class="url-text">Logo URL</p> 
+    </div>
+    <div class="url-logo">
+      <fieldset>{{img_url}}</fieldset>
+      </div>
+    <div class="design-idea">
+      <p class="design">Design Ideas</p>
+    </div>
+    <div class="answer">
+        <fieldset>
+          {{ideas}}
+        </fieldset>
+    </div>
+
+</body>
+    <footer>
+        <p>Copyright© 2023 Auskimberly inc.</p>
+    </footer>
+</html>
