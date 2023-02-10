@@ -1,4 +1,7 @@
 import openai
+import os
+
+openai.api_key = os.getenv('api_key')
 
 
 class answer:
@@ -11,7 +14,6 @@ class answer:
 
     def img_gen(self):
 
-        openai.api_key = "api key"
         response_img = openai.Image.create(
             prompt=self.question,
             n=self.img_num,
@@ -21,7 +23,6 @@ class answer:
 
     def idea_gen(self):
 
-        openai.api_key = "api key"
         response_idea = openai.Completion.create(
             model="text-davinci-003",
             prompt=self.question+"and explain the idea of the design",
@@ -35,7 +36,6 @@ class answer:
 
     def mood_color_gen(self):
 
-        openai.api_key = "api key"
         response_color = openai.Completion.create(
             model="text-davinci-003",
             prompt="The CSS code for a color like "+self.question,
